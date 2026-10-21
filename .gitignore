@@ -1,0 +1,25 @@
+# Fetched market data and generated outputs stay out of the repository
+analysis/data/*.csv
+analysis/output/*.md
+analysis/output/*.png
+analysis/output/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# No PDFs are committed (see papers/README.md for links)
+*.pdf
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
